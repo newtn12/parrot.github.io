@@ -1,0 +1,27 @@
+html{
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif
+}
+* { font-family: JetBrains Mono; box-sizing: border-box; scroll-behavior: smooth; 
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bgColor: #fdf4f9;
+  --bgColor-1: #fff;
+  --whiteColor: #f1f3f4;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: black;
+}
+::-webkit-scrollbar-track {
+  background: gray;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, .6);
+}
